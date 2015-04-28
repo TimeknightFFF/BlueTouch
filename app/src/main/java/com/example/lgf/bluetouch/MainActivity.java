@@ -28,6 +28,7 @@ import java.util.UUID;
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
 
+
     private BluetoothAdapter bluetoothadapter;
 
     private RecyclerView recycler;
@@ -39,6 +40,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     private String uuid = "4e3a500b-1ba9-4c3f-a5fe-76cb46608b5f";
     private Handler handler = new Handler() {
         @Override
+     //张希祥修改了
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
             switch (msg.what) {
